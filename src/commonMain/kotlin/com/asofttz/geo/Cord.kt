@@ -1,9 +1,6 @@
 package com.asofttz.geo
 
-open class Cord {
-    var lat = 0.0
-    var lng = 0.0
-
+open class Cord(var lat: Double = 0.0, var lng: Double = 0.0) {
     fun toArray() = arrayOf(lat, lng)
 
     companion object {
@@ -15,8 +12,8 @@ open class Cord {
     }
 }
 
-val Collection<Cord>.average: Track
-    get() = Track().apply {
+val Collection<out Cord>.average: Cord
+    get() = Cord().apply {
         lat = 0.0
         lng = 0.0
         forEach {
@@ -27,4 +24,4 @@ val Collection<Cord>.average: Track
         lng /= size
     }
 
-val Array<Cord>.average: Track get() = toList().average
+val Array<out Cord>.average: Cord get() = toList().average
