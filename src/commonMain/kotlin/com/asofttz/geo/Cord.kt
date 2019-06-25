@@ -1,7 +1,12 @@
 package com.asofttz.geo
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 open class Cord(var lat: Double = 0.0, var lng: Double = 0.0) {
     fun toArray() = arrayOf(lat, lng)
+
+    override fun toString(): String = "Cord {lat: $lat, lng: $lng}"
 
     companion object {
         val fake
