@@ -6,39 +6,151 @@
         <option name="GRADLE_PROJECT_PATH" value=":asoft-geo" />
       </configuration>
     </facet>
-    <facet type="java-gradle" name="Java-Gradle">
+    <facet type="android" name="Android">
       <configuration>
-        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
-        <option name="BUILDABLE" value="false" />
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" isTestModule="false" externalProjectId=":asoft-geo">
+        <sourceSets>
+          <sourceSet>tz.co.asoft.asoft-geo.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.3.0/804a29e0b22cfb30e04487574ad1cb888daa716d/kotlinx-coroutines-android-1.3.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.12.0/418a99564fcb3fa1b278b529238d2cb5a3f80d7d/kotlinx-serialization-runtime-0.12.0.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/klock-android-1.6.0.aar/3a7b3f1316835dd6e8850b9226f67494/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/145f0d6362981626d1731881f82c3c21/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/325e5c731c1c2c7fb25b5c9bb7e7667b/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/asoft-platform-android-3.0.0.aar/0001de10f5dd499129f820094506b6a4/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/dcef7e0b5e312eba537fd6dd90471576/jars/classes.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.50/bf65725d4ae2cf00010d84e945fcbc201f590e11/kotlin-stdlib-jdk8-1.3.50.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.3.0/a0765e024935faf4b7d33c8076effae8835152c3/kotlinx-coroutines-core-common-1.3.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.12.0/8f59c4d691b8e4f95c46e79133952444a93b8443/kotlinx-serialization-runtime-common-0.12.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/com.soywiz.korlibs.klock/klock-metadata/1.6.0/55bffd71a4570fc4bb9bea29b96428e384c9677c/klock-metadata-1.6.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/com.github.andylamax.asoft-platform/asoft-platform-metadata/3.0.0/52d20b15732c8fc9a77c87e88f18482cacbe35ef/asoft-platform-metadata-3.0.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.0/36fa8555d92456448ec19e64b00be830df9a7fb5/kotlinx-coroutines-core-1.3.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/693efc9e93e6d1a6ea89cfedfdef1545/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/6a9e64561b3b13ab45b4db4ad5b0b9da/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/1684024fe8a9341b23931e6ce0b7b165/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/58ecb805cfb844ebc07ccfb994cfd641/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/7210ff6ca4c196746cd6cfc78f40aca9/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/ae936463ffe1ba9e431b6784d51f113c/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/505417fa71ce8420712650e77ab85b4f/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/e4acc45e8770cd3d774acbc2c3d30435/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/fd39e6292dc8962d2dbe6b7f6b70525c/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/ce8a61bd6fabffe5aa99a9a3fe96c11e/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/cda5d40e75b97fd923e9498daafd5934/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/411924cc2d42970320929abbce96a968/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/68fdc423c30ef73f118dd59f6aa321a6/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/50fa51380c5fafb85c076b6fafb8c05a/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/b8844ea00f366fbfd6c6afe8cc57552d/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/f962dca486a8d5b55956e2d07f7f2dbb/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/2c10aa1e8d5722676d543fa166e1a4e3/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/c61fdaef4b8c70a464583190ed15f03b/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f2a11a161ee7c2906e0ceab06421d45f/jars/classes.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/69e9aa5850c900cc36421a384940e56a/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/ba6283819665cc5592f922f8806d5e67/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/514ceb02b47376bbbd83edf793dab3e2/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2858c7112c32890da5fee390c0e8a06a/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/869f0adf4e67b0cf7c2b2dd15c6e9788/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/e5e9bbd581e2646b66c9b52b13da9489/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/f87e20454a166fd39a04d283e3f38644/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/8c263d65c15c853f831d08ecdcfe22e7/jars/classes.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/e32c7c9840825e96a17090725f4c9565/jars/classes.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/home/andylamax/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/e32c723fa7b1ada8eca4de71635ffc49/jars/classes.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar:/home/andylamax/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/media/andylamax/63C23C360914D355/Installers/cross-platform/Sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="asoft-geo_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.50/59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af/kotlin-script-runtime-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.50/b8e0110c386c08f46a8c5e45b8c64aece1914867/kotlin-scripting-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.50/53f579e1bee3dab3df915d923ad1bb43bc37cd18/kotlin-scripting-jvm-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/attr" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/intermediate-jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-aidl" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packagedAssets" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged_res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/public_res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
+      <excludeFolder url="file://$MODULE_DIR$/build/js" />
+      <excludeFolder url="file://$MODULE_DIR$/build/kotlin" />
+      <excludeFolder url="file://$MODULE_DIR$/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-metadata-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-metadata-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-jvm-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-metadata-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="asoft-geo.asoft-geo-js-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.andylamax.asoft-platform:asoft-platform-android:3.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.12.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.12.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.soywiz.korlibs.klock:klock-android:1.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.soywiz.korlibs.klock:klock-metadata:1.6.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.andylamax.asoft-platform:asoft-platform-metadata:3.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-places-placereport:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0@jar" level="project" />
+    <orderEntry type="module" module-name="tz.co.asoft.asoft-geo.commonMain" />
+    <orderEntry type="module" module-name="tz.co.asoft.asoft-geo.commonTest" scope="TEST" />
   </component>
 </module>
