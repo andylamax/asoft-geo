@@ -1,6 +1,6 @@
 package tz.co.asoft.geo
 
-import com.soywiz.klock.DateTime
+import tz.co.asoft.klock.DateTime
 import kotlinx.serialization.Serializable
 
 @Serializable
